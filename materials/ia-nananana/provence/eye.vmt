@@ -1,0 +1,19 @@
+patch
+{
+	include "materials\IA-NanaNana\Provence\shader.vmt"
+	insert
+	{
+		"$basetexture" "IA-NanaNana\Provence\eye"
+
+		"$detail" "IA-NanaNana\Provence\black"
+		"$detailscale" "1"
+		"$detailblendfactor" ".3"
+		"$detailblendmode" "5"
+	}
+	replace
+	{
+		"$lightwarptexture" "IA-NanaNana\Provence\shader\eyewarp"
+		"$phongboost"	"24"
+		"$phongfresnelranges"	"[0 0 1]"
+	}
+}

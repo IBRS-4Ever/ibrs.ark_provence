@@ -1,0 +1,19 @@
+{
+  "Title": "Arknights Provence",
+  "Type": "content",
+  "Org": "ibrs",
+  "Ident": "ark_provence",
+  "Tags": "arknights anime",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": false,
+  "CodePath": null,
+  "Metadata": {
+    "Summary": "Provence from Arknights.",
+    "Description": "Provence from Arknights.",
+    "Public": true,
+    "ReplaceTags": "arknights anime"
+  }
+}

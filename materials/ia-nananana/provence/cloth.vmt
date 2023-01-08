@@ -1,0 +1,13 @@
+patch
+{
+	include "materials\IA-NanaNana\Provence\shader.vmt"
+	insert
+	{
+		"$basetexture" "IA-NanaNana\Provence\cloth"
+
+		"$detail" "IA-NanaNana\Provence\black"
+		"$detailscale" "1"
+		"$detailblendfactor" ".3"
+		"$detailblendmode" "5"
+	}
+}

@@ -1,0 +1,13 @@
+patch
+{
+	include "materials\IA-NanaNana\Provence\shader.vmt"
+	insert
+	{
+		"$basetexture" "IA-NanaNana\Provence\eye"
+	}
+	replace
+	{
+		"$lightwarptexture" "IA-NanaNana\Provence\shader\basewarp"
+		"$phongboost"	".5"
+	}
+}

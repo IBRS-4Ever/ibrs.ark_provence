@@ -1,0 +1,14 @@
+patch
+{
+	include "materials\IA-NanaNana\Provence\shader.vmt"
+	insert
+	{
+		"$basetexture" "IA-NanaNana\Provence\skin"
+	}
+	replace
+	{
+		"$lightwarptexture" "IA-NanaNana\Provence\shader\skinwarp"
+		$alphatest 0
+		$nocull 0
+	}
+}
