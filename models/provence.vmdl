@@ -2180,7 +2180,7 @@
 						jiggle_root_bone = "Bang03c"
 						jiggle_type = 1
 						has_yaw_constraint = false
-						has_pitch_constraint = true
+						has_pitch_constraint = false
 						has_angle_constraint = true
 						has_base_spring = false
 						allow_flex_length = false
@@ -2430,7 +2430,7 @@
 						jiggle_root_bone = "Bang05c"
 						jiggle_type = 1
 						has_yaw_constraint = false
-						has_pitch_constraint = true
+						has_pitch_constraint = false
 						has_angle_constraint = true
 						has_base_spring = false
 						allow_flex_length = false
