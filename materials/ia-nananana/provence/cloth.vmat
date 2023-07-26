@@ -7,12 +7,8 @@ Layer0
 	//---- MToon Outline (WIP) ----
 	F_OUTLINE_WIDTH_MODE 1 // WorldCoordinates
 
-	//---- Color ----
-	g_flModelTintAmount "1.000"
-	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-
-	//---- Fade ----
-	g_flFadeExponent "1.000"
+	//---- Fog ----
+	g_bFogEnabled "1"
 
 	//---- Material ----
 	g_flTintColor "[1.000000 1.000000 1.000000 0.000000]"
@@ -23,6 +19,7 @@ Layer0
 	TextureNormal "materials/ia-nananana/provence/normal.tga"
 	TextureRoughness "materials/default/default_rough.tga"
 	TextureTintMask "materials/default/default.tga"
+	TextureTranslucency "materials/default/default_trans.tga"
 
 	//---- MToon Color ----
 	InputLitTexture "materials/ia-nananana/provence/cloth.tga"
@@ -54,11 +51,4 @@ Layer0
 	RimFresnelPower "1.000"
 	RimLift "0.000"
 	RimLightingMix "0.000"
-
-	//---- Texture Coordinates ----
-	g_nScaleTexCoordUByModelScaleAxis "0"
-	g_nScaleTexCoordVByModelScaleAxis "0"
-	g_vTexCoordOffset "[0.000 0.000]"
-	g_vTexCoordScale "[1.000 1.000]"
-	g_vTexCoordScrollSpeed "[0.000 0.000]"
 }
